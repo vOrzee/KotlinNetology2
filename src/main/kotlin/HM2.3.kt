@@ -6,6 +6,7 @@ fun main() {
     val VipClientDiscount = 0.01
     var resultDiscount: Double
 
+    
     if (spendsOnMusic >= 1_001 && spendsOnMusic <= 10_000 && VipClient == true) {
         resultDiscount = ((spendsOnMusic - discount).toDouble())
         println(resultDiscount - (resultDiscount * VipClientDiscount))
